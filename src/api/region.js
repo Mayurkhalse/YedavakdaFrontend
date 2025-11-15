@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://bloomwatch-backend.onrender.com/';
 
 export const addRegion = async (uid, lat1, lat2, lan1, lan2) => {
   const formData = new FormData();
